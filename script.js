@@ -7,10 +7,13 @@ btnAbrir.addEventListener("click", () => {
   ElementoSuperior.classList.add("abrir-superior");
 
   const h1 = document.querySelector("h1");
+  const h2 = document.querySelector("h2");
   const p = document.querySelector("p");
   h1.style.transform = "translateY(-120px)";
+  h2.style.transform = "translateY(-100px)";
   p.style.transform = "translateY(-120px)";
   h1.style.transition = "transform 0.65s ease-in-out";
+  h2.style.transition = "transform 0.65s ease-in-out";
   p.style.transition = "transform 0.65s ease-in-out";
 
   const IconoCorazon = document.querySelector(".bx");
@@ -32,8 +35,10 @@ btnCerrar.addEventListener("click", () => {
 
   setTimeout(() => {
     const h1 = document.querySelector("h1");
+    const h2 = document.querySelector("h2");
     const p = document.querySelector("p");
     h1.style.transform = "translateY(0px)";
+    h2.style.transform = "translateY(0px)";
     p.style.transform = "translateY(0px)";
 
     ElementoSuperior.style.zIndex = 0;
@@ -52,10 +57,13 @@ contenedor.addEventListener("click", () => {
   ElementoSuperior.classList.add("abrir-superior");
 
   const h1 = document.querySelector("h1");
+  const h2 = document.querySelector("h2");
   const p = document.querySelector("p");
   h1.style.transform = "translateY(-120px)";
+  h2.style.transform = "translateY(-120px)";
   p.style.transform = "translateY(-120px)";
   h1.style.transition = "transform 0.65s ease-in-out";
+  h2.style.transition = "transform 0.65s ease-in-out";
   p.style.transition = "transform 0.65s ease-in-out";
 
   const IconoCorazon = document.querySelector(".bx");
